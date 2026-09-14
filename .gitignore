@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node.js build artifacts
+node_modules/
+dist/
+
+# Local editor and runtime files
+.vscode/
+*.log
+logs/
+
+# Local models and download caches
+docker/embedding/bge-large-zh-v1.5/
+
+# Local credentials
+.env
+.env.*
+conf/app_config.yaml
